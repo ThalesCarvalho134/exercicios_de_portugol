@@ -87,22 +87,22 @@ programa {
     escreva("---------------------\n2.7\n")
     escreva("Digite o primeiro número: ")
     leia(m1)
-    se(m1<72) soma=soma+m1
+    se(m1<72) {soma=soma+m1}
     escreva("Digite o segundo número: ")
     leia(m2)
-    se(m2<72) soma=soma+m2
+    se(m2<72) {soma=soma+m2}
     escreva("Digite o terceiro número: ")
     leia(m3)
-    se(m3<72) soma=soma+m3
+    se(m3<72) {soma=soma+m3}
     escreva("Digite o quarto número: ")
     leia(m4)
-    se(m4<72) soma=soma+m4
+    se(m4<72) {soma=soma+m4}
     escreva("Digite o quinto número: ")
     leia(m5)
-    se(m5<72) soma=soma+m5
+    se(m5<72) {soma=soma+m5}
     escreva("Digite o sexto número: ")
     leia(m6)
-    se(m6<72) soma=soma+m6
+    se(m6<72) {soma=soma+m6}
     escreva("A soma dos valores menores que 72 é ",soma,".\n")
     escreva("A soma de todos os valores é ",m1+m2+m3+m4+m5+m6,".\n")
 
