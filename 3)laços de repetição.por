@@ -9,7 +9,6 @@ programa {
     inteiro n1, n2 real aprovado=0, m cadeia s_ou_n
     inteiro p1, p2, p3, p4, p5, p6 real somar
     inteiro n, conta=1
-
     inteiro s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, contagemdentro=0, contagemfora=0
 
 
@@ -134,82 +133,82 @@ escreva("\n------------------\n3.8\n")
  //3.9
  escreva("Primeiro valor: ")
  leia(s1)
- se(s1>=24 ou s1<=42){
+ se(s1>=24 e s1<=42){
 contagemdentro++
 }
-se(s1<24 ou s1>42){
+senao{
   contagemfora++
  }
 escreva("Segundo valor: ")
 leia(s2)
- se(s2>=24 ou s2<=42){
+ se(s2>=24 e s2<=42){
 contagemdentro++
 }
-se(s2<24 ou s2>42){
+senao{
   contagemfora++
  }
 escreva("Terceiro valor: ")
 leia(s3)
- se(s3>=24 ou s3<=42){
+ se(s3>=24 e s3<=42){
 contagemdentro++
 }
-se(s3<24 ou s3>42){
+senao{
   contagemfora++
  }
 escreva("Quarto valor: ")
 leia(s4)
- se(s4>=24 ou s4<=42){
+ se(s4>=24 e s4<=42){
 contagemdentro++
 }
-se(s4<24 ou s4>42){
+senao{
   contagemfora++
  }
 escreva("Quinto valor: ")
 leia(s5)
- se(s5>=24 ou s5<=42){
+ se(s5>=24 e s5<=42){
 contagemdentro++
 }
-se(s5<24 ou s5>42){
+senao{
   contagemfora++
  }
 escreva("Sexto valor: ")
 leia(s6)
- se(s6>=24 ou s6<=42){
+ se(s6>=24 e s6<=42){
 contagemdentro++
 }
-se(s6<24 ou s6>42){
+senao{
   contagemfora++
  }
 escreva("Sétimo valor: ")
 leia(s7)
- se(s7>=24 ou s7<=42){
+ se(s7>=24 e s7<=42){
 contagemdentro++
 }
-se(s7<24 ou s7>42){
+senao{
   contagemfora++
  }
 escreva("Oitavo valor: ")
 leia(s8)
- se(s8>=24 ou s8<=42){
+ se(s8>=24 e s8<=42){
 contagemdentro++
 }
-se(s8<24 ou s8>42){
+senao{
   contagemfora++
  }
 escreva("Nono valor: ")
 leia(s9)
- se(s9>=24 ou s9<=42){
+ se(s9>=24 e s9<=42){
 contagemdentro++
 }
-se(s9<24 ou s9>42){
+senao{
   contagemfora++
  }
 escreva("Décimo valor: ")
 leia(s10)
- se(s10>=24 ou s10<=42){
+ se(s10>=24 e s10<=42){
 contagemdentro++
 }
-se(s10<24 ou s10>42){
+senao{
   contagemfora++
  }
 
