@@ -1,1 +1,1 @@
-# exercicios_de_portugol
+# primeiro_exercicio_de_portugol
